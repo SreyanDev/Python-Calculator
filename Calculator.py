@@ -37,5 +37,5 @@ try:
         case _:
             print("Enter the correct operator (+,-,*,/).")
 
-except:
-    print("Enter integer or float numbers only.")
+except Exception as e:
+    print(f"{e} .\"\"Enter integer or float numbers only.\"\"")
